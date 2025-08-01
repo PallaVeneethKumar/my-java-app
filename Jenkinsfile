@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("git checkout") {
       when{
-        branch 'test'
+        branch 'main'
       }
 steps{
   echo "code checkout"
